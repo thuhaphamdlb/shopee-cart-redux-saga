@@ -1,0 +1,36 @@
+.authWrapper {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 15%;
+  top: 30%;
+  margin: 4rem auto 6rem;
+  background-color: #fff;
+  max-width: 40rem;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 70px 0 rgba(0, 0, 0, 0.3);
+  margin: 20px auto 20px;
+  border-radius: 4px;
+
+  .wrap {
+    padding: 10px;
+    margin-bottom: 5px;
+
+    h2 {
+      font-size: 2.2rem;
+      line-height: 1;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0 auto 3rem;
+    }
+  }
+}
+
+.form-background {
+  width: auto;
+  height: 917px;
+}

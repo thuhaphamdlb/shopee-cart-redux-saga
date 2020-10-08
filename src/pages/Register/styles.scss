@@ -1,0 +1,25 @@
+.signup {
+    display: block;
+    width: 100%;
+    max-width: 40.0rem;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    margin: 10px auto 50px;
+    .wrap {
+        padding: 10px;
+        h2 {
+            font-size: 22px;
+            line-height: 1;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .socialSignup {
+            margin: 30px auto 0;
+        }
+    }
+}

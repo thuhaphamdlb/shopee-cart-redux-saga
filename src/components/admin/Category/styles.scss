@@ -1,0 +1,21 @@
+.category-tables {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    thead {
+        background-color: #ddd;
+    }
+    td,
+    th {
+        border: 1px solid #eee;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #fff;
+    }
+}
+
+.add-category-container {
+    border: 1px solid white;
+    margin-bottom: 2%;
+}

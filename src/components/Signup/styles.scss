@@ -1,0 +1,40 @@
+.signup {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 15%;
+    top: 30%;
+    background-color: #fff;
+    max-width: 40rem;
+    margin: 20px auto 20px;
+    font-size: 14pt;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    .wrap {
+        padding: 10px;
+        li {
+            list-style: none;
+            color: red;
+            font-size: 11pt;
+            margin-left: 0;
+        }
+        hr {
+            color: #ee4d2d;
+            background-color: #ee4d2d;
+        }
+        h2 {
+            font-size: 22px;
+            line-height: 1;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .formWrap {
+            margin: 30px auto 0;
+        }
+    }
+}

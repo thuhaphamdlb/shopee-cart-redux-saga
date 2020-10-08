@@ -1,0 +1,28 @@
+.container-slider {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container-shoppingCart {
+    margin: 30px;
+    margin-left: 20%;
+}
+
+.container-shoppingCart .title-table {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+
+.container-shoppingCart .item-shoppingCart {
+    border-bottom: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ant-btn {
+    background: #FA5730;
+}

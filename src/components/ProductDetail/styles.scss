@@ -1,0 +1,121 @@
+    .product-detail-container {
+        border-radius: 4px;
+        padding: 10px;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-right: -10%;
+        margin-left: 15%;
+        background-color: #eee;
+        display: block;
+    }
+    
+    .product-detail {
+        display: flex;
+    }
+    
+    .product-thumbnail {
+        width: 30%;
+    }
+    
+    .detail-content {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 auto;
+        -moz-box-flex: 1;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        margin-left: 5%;
+        width: 0;
+    }
+    
+    .detail-product-name {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14pt;
+        word-wrap: break-word;
+    }
+    
+    span.checked {
+        color: orange;
+    }
+    
+    .detail-price {
+        padding: 15px 20px;
+        display: flex;
+        background: #fafafa;
+    }
+    
+    ._3n5NQx {
+        font-size: 20pt;
+        font-weight: 500;
+        color: #ee4d2d;
+    }
+    
+    ._3_ISdg {
+        font-size: 18pt;
+        text-decoration: line-through;
+        color: #929292;
+        margin-right: 10px;
+    }
+    
+    .MITExd {
+        font-size: 15pt;
+        color: #fff;
+        text-transform: uppercase;
+        background: #ee4d2d;
+        border-radius: 2px;
+        padding: 2px 4px;
+        font-weight: 500;
+        margin-left: 5%;
+    }
+    
+    ._3DepLY {
+        margin-top: 1.5625rem;
+        padding: 0 1.25rem;
+    }
+    
+    .button-color {
+        display: flex;
+    }
+    
+    .product-button-color {
+        background-color: #fff;
+        width: 20%;
+        height: 30%;
+    }
+    
+    .product-button-color:hover {
+        color: orange
+    }
+    
+    ._18Y8Ul {
+        border: 1px solid rgb(212, 203, 203);
+        height: 30px;
+        font-size: 16px;
+        text-align: center;
+        cursor: text;
+        outline: none;
+    }
+    
+    .add-to-cart-detail {
+        background: rgba(255, 87, 34, .1);
+        border: 1px solid #ee4d2d;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .03);
+    }
+    
+    .add-to-cart-detail,
+    .buy-now {
+        width: 200px;
+        height: 40px;
+    }
+    
+    .buy-now {
+        background-color: #ee4d2d;
+        color: white;
+    }
+    
+    .buy-now,
+    .add-to-cart-detail,
+    .product-button-color {
+        border: 1px solid #eee;
+        outline: none;
+    }

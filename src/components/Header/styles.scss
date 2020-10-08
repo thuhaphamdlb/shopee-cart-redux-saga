@@ -1,0 +1,128 @@
+.header {
+    height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #f5402d -7%, #fd5f32 111%);
+    width: 100%;
+    height: 140px;
+    z-index: 100;
+    position: fixed;
+}
+
+.img-logo {
+    width: 60%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#top-menu ul {
+    list-style-type: none;
+}
+
+#top-menu li,
+#top-menu a {
+    color: white;
+    display: inline-block;
+    width: 130px;
+    line-height: 40px;
+}
+
+#top-menu-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    size: 30px;
+    padding-left: 100px;
+}
+
+#top-menu-right li {
+    display: inline-block;
+    width: 100px;
+    line-height: 40px;
+}
+
+#top-menu-right a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+#bottom-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bottom-menu li {
+    color: white;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#bottom-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.icon-cart {
+    background-color: transparent;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 50px;
+    font-size: 12pt;
+}
+
+.search-container {
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchInput {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.searchInput:hover,
+.searchInput:active,
+.searchInput:focus {
+    border: none;
+    outline: none;
+}
+
+.button-search {
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: orange;
+    outline: none;
+    a {
+        font-size: 17pt;
+    }
+}
+
+.anticon-shopping-cart {
+    color: white;
+    font-size: 30pt;
+}
+
+svg {
+    fill: white;
+}
+
+svg:not(:root) {
+    padding-left: 8%;
+}
